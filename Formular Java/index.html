@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Tickets bestellen</h1>
+
+    <form id="bestellFormular" action="https://blj-ict-bz.ch/formlog/" method="POST">
+
+    <label for="mail">Deine E-Mail Adresse: </label>
+    <input type="text" id="mail" name="Deine E-Mail">
+    <br><br>
+    <label for="tiketnumber">Anzahl Tickets: </label>
+    <select name="Anzahl Tickets:" id="tnumber">
+        <option value="bitte wählen">Bitte wählen</option>
+        <option value="one">1</option>
+        <option value="two">2</option>
+    </select>
+    <br><br>
+    <button id="order">Bestellen</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
