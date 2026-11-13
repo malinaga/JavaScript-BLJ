@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Zeiterfassung</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="logo.png">
+                <h1>Zeiterfassung</h1>
+            </div>
+            <div class="start-area">
+                <select id="tasks-ddn">
+                    <option>Allgemein</option>
+                    <option>Schule</option>
+                    <option>ÜK</option>
+                </select>
+                <span id="time-counter">00:00:00</span>
+                <button id="start-btn" class="start"></button>
+            </div>
+        </header>
+        <div class="log-area">
+            <h2>Protokoll</h2>
+            <table id="log-tbl">
+                <tr>
+                    <th>Datum</th>
+                    <th>Zeit</th>
+                    <th>Dauer</th>
+                    <th>Aufgabe </th>           
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
